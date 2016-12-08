@@ -1,5 +1,6 @@
 # BossBarAPI
 BossBarAPI for PocketMine. Inspired by http://bitbucket.org/inventivetalent/bossbarapi/
+Will not work for anything but Elywing
 
 # Usage
 ##To see the usage, check out these plugins:
