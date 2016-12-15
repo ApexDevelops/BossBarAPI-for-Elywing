@@ -10,7 +10,7 @@ class BossEventPacket extends DataPacket{
 	public $state;
 
 	public function decode(){
-		$this->eid = $this->getUUID();
+		$this->eid = $this->getEntityId();
 		$this->state = $this->getUnsignedVarInt();
 		// $this->ka2 = $this->getString();
 		// $this->ka3 = $this->getFloat();
